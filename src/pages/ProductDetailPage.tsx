@@ -26,10 +26,8 @@ const ProductDetailPage = () => {
 					{product?.title}
 					<span className="text-2xl font-medium"> ({product?.flavour})</span>
 				</h1>
-				<h2 className="text-2xl font-semibold mt-2 mb-3">
-					Rs. {product?.price}
-				</h2>
-				<div className="flex items-center my-10 lg:my-7">
+				<h2 className="text-2xl font-semibold mt-2">Rs. {product?.price}</h2>
+				<div className="flex items-center my-7">
 					<a
 						className="bg-red-500 text-white py-2 lg:py-3 px-3 lg:px-5 text-xl font-medium hover:bg-red-400 flex items-center mr-8"
 						href="tel:+9779826747001"
