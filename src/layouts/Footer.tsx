@@ -36,7 +36,7 @@ const Footer = () => {
 			<a
 				href="https://namgellama.netlify.app"
 				target="_blank"
-				className="text-sm text-gray-500 mt-3 lg:mt-1"
+				className="text-xs text-gray-500 mt-3 lg:mt-1"
 			>
 				Developed by Namgel Lama
 			</a>
