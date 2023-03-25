@@ -4,7 +4,7 @@ const AboutPage = () => {
 	return (
 		<section className="my-8 lg:w-[1200px] mx-auto px-4">
 			<img src={OfficeImg} alt="Office Image" className="object-cover" />
-			<div className="text-xl font-medium mt-6  mb-5 text-justify">
+			<div className="text-lg font-medium mt-6  mb-5 text-justify">
 				<p>
 					GreenCity, established in 2022 in Lalitpur, Nepal, is a socially
 					responsible company that specializes in delivering environmentally
@@ -14,10 +14,6 @@ const AboutPage = () => {
 					focus on the local market and a commitment to our global
 					responsibility, GreenCity is dedicated to making a positive impact
 					both at home and abroad.
-					{/* <span className="inline lg:hidden">
-						&nbsp; Join us in our mission to create a greener future and contact
-						us today to learn more about how we can help you!
-					</span> */}
 				</p>
 				<p className="mt-10 lg:mt-2">
 					GreenCity is a provider of quality products and services to businesses
