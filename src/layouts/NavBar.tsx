@@ -16,7 +16,7 @@ const Navbar = () => {
 
 	return (
 		<nav className="w-full sticky top-0 bg-white text-black text-lg font-medium z-10 flex items-center justify-between py-2 pl-4 lg:pl-8 pr-8 md:flex-row md:py-1 lg:flex-row lg:py-0 shadow-lg">
-			<Link to="/" className="flex items-center md:mb-2 z-10 lg:mt-1 w-full">
+			<Link to="/" className="flex items-center md:mb-2 z-10 lg:mt-1 lg:w-full">
 				<img className="w-[45px] md:mb-2 lg:mb-0" src={Logo} alt="Logo Image" />
 				<div className="ml-2 mt-2">
 					<h1 className="text-xl font-extrabold  text-[#9a7b4f] mb-[-7px]">
